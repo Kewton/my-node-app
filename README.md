@@ -109,3 +109,17 @@
     ```
     npm test
     ```
+
+# container
+- build
+```
+docker build -t node-app:v0.0.1 . --no-cache
+```
+- run
+```
+docker run -p 3001:3001 node-app:v0.0.1
+```
+- test
+```
+curl http://127.0.0.1:3001
+```
